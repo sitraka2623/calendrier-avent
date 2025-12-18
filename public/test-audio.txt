@@ -1,0 +1,18 @@
+Pour tester la musique localement :
+
+1. Téléchargez une musique de Noël gratuite depuis :
+   - https://pixabay.com/music/search/christmas/
+   - https://freemusicarchive.org/search?quicksearch=christmas
+
+2. Renommez le fichier en "christmas-music.mp3"
+
+3. Placez-le dans le dossier "public/"
+
+4. Modifiez src/App.jsx pour utiliser le fichier local :
+   <source src="/christmas-music.mp3" type="audio/mpeg" />
+
+Note : L'application utilise actuellement des musiques en ligne.
+Si vous n'entendez rien, vérifiez :
+- Que votre volume est activé
+- Que votre navigateur autorise la lecture audio
+- Votre connexion internet
